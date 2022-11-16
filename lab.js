@@ -155,3 +155,10 @@ while (z > 0) {
   }
   z--
 }
+//below is the solution, interesting
+while (z > 0) {
+  for (let i = z; i > 0; i--) {
+    console.log(i)
+  }
+  z--
+}
